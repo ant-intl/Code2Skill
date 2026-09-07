@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Code2Skill, please cite the accompanying paper."
+title: "Code2Skill"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Tong
+    given-names: Yongqi
+  - family-names: Wang
+    given-names: Pan
+  - family-names: Wang
+    given-names: Hang
+  - family-names: Li
+    given-names: Jianshe
+  - family-names: Zhang
+    given-names: Xin
+  - family-names: Yang
+    given-names: Jiang-Ming
+  - family-names: Wu
+    given-names: Wei

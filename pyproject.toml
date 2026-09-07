@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code2skill"
+version = "0.1.0"
+description = "Grounded synthesis of reusable procedural skills from source code"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Yongqi Tong"},
+  {name = "Pan Wang"},
+  {name = "Hang Wang"},
+  {name = "Jianshe Li"},
+  {name = "Xin Zhang"},
+  {name = "Jiang-Ming Yang"},
+  {name = "Wei Wu"},
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.scripts]
+code2skill = "code2skill.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

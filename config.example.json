@@ -1,0 +1,25 @@
+{
+  "model": {
+    "base_url": "env:CODE2SKILL_MODEL_BASE_URL",
+    "model": "your-model-name",
+    "api_key_env": "OPENAI_API_KEY",
+    "timeout_seconds": 120,
+    "max_retries": 2,
+    "allow_public_url": false
+  },
+  "scan": {
+    "include_tests": false,
+    "min_unit_lines": 3,
+    "max_file_bytes": 200000,
+    "max_unit_bytes": 12000,
+    "max_units_per_repo": 400
+  },
+  "pipeline": {
+    "concurrency": 4,
+    "min_selection_score": 0.5,
+    "min_skill_value_score": 0.45,
+    "build_purpose_index": true,
+    "store_full_traces": true
+  },
+  "output_dir": "runs"
+}

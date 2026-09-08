@@ -6,7 +6,7 @@ source-body-blind code regeneration, checks the regenerated behavior against
 the source, and retains accepted records with provenance and retrieval-facing
 metadata.
 
-This repository is a local, publication-oriented implementation aligned with
+This repository is a publication-oriented implementation aligned with
 the paper **Grounded Skill Synthesis from Code at Scale for Agentic
 Intelligence**. The repository is currently pre-release and privately hosted;
 it is not yet a public open-source release.

@@ -6,10 +6,8 @@ source-body-blind code regeneration, checks the regenerated behavior against
 the source, and retains accepted records with provenance and retrieval-facing
 metadata.
 
-This repository is a publication-oriented implementation aligned with
-the paper **Grounded Skill Synthesis from Code at Scale for Agentic
-Intelligence**. The repository is currently pre-release and privately hosted;
-it is not yet a public open-source release.
+This branch provides the implementation accompanying an anonymous research
+submission. Author metadata and public project links are omitted for review.
 
 ## Pipeline
 
@@ -111,11 +109,6 @@ See [docs/methodology.md](docs/methodology.md) for the paper-to-code mapping,
 [docs/open-source-checklist.md](docs/open-source-checklist.md) for publication
 gates.
 
-## Resources
-
-- [Project website](https://ant-international-research.github.io/developer-skill-hubs/)
-- [DeveloperSkills-Code2Skill dataset](https://huggingface.co/datasets/ant-intl/DeveloperSkills-Code2Skill)
-
 ## Development
 
 ```bash
@@ -123,8 +116,8 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 python -m compileall -q src tests examples
 ```
 
-## Release status
+## Review status
 
-This is a pre-release codebase. An organization-approved open-source license,
-public repository URL, archival DOI, and final paper identifier must be added
-before publication. No license is implied by the current local repository.
+This is a pre-release review snapshot. Citation details and public release
+resources are omitted for anonymous review. No license is implied by this
+snapshot.

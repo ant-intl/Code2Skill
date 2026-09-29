@@ -9,13 +9,7 @@ description = "Grounded synthesis of reusable procedural skills from source code
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  {name = "Yongqi Tong"},
-  {name = "Pan Wang"},
-  {name = "Hang Wang"},
-  {name = "Jianshe Li"},
-  {name = "Xin Zhang"},
-  {name = "Jiang-Ming Yang"},
-  {name = "Wei Wu"},
+  {name = "Anonymous Authors"},
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",

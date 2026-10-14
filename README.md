@@ -8,8 +8,7 @@ metadata.
 
 This repository is a publication-oriented implementation aligned with
 the paper **Grounded Skill Synthesis from Code at Scale for Agentic
-Intelligence**. The repository is currently pre-release and privately hosted;
-it is not yet a public open-source release.
+Intelligence**. 
 
 ## Pipeline
 

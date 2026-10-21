@@ -7,8 +7,7 @@ the source, and retains accepted records with provenance and retrieval-facing
 metadata.
 
 This repository is a publication-oriented implementation aligned with
-the paper **Grounded Skill Synthesis from Code at Scale for Agentic
-Intelligence**. 
+the paper **Grounded Skill Synthesis from Code at Scale for Agentic Intelligence** ([arXiv](https://arxiv.org/abs/2609.05571)).
 
 ## Pipeline
 
